@@ -1,0 +1,130 @@
+.projects-section{
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-projects-heading{
+    font-size: xxx-large;
+    font-weight: bold;
+}
+.main-projects-body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 78vw;
+}
+.project-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 2vh;
+    padding: 2vh 2vw;
+    padding-top: 0vh;
+}
+.project-main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.project-main-heading{
+    font-size: x-large;
+    font-weight: bold;
+}
+.project-main-techUsed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tech-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 0px;
+}
+.tech-item{
+    padding: 0.2vh 0.4vw;
+    background-color: black;
+    color: whitesmoke;
+    margin: 0.5vw;
+    border-radius: 0.5vh;
+}
+.project-gif{
+    border-radius: 2vh;
+    max-width: 20vw;
+    border: 2px solid black;
+}
+.project-features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1vh;
+}
+.project-feature-heading{
+    font-size: larger;
+    font-weight: bold;
+}
+.project-feature-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items:center; */
+    text-align: left!important;
+    
+}
+.project-feature{
+    margin: 0.5vh;
+}
+ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.project-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.launch-project{
+    text-decoration: none;
+    padding: 1vh 1vw;
+    border: 2px solid black;
+    border-radius: 1vh;
+    margin: 1vh 2vw;
+    color: black;
+    font-weight: bold;
+}
+.launch-project:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.project-code{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 1vh 1vw;
+    border: 2px solid black;
+    border-radius: 1vh;
+    margin: 1vh 2vw;
+}
+.project-code:hover{
+    background-color: black;
+    color: whitesmoke;
+}

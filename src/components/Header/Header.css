@@ -1,0 +1,91 @@
+.header-main{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 7vh;
+    width: 98vw;
+    overflow: hidden;
+    top: 0vh;
+
+}
+.header-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    margin-left: 1vw;
+}
+.header-logo:hover>.logo-img{
+    width: 3.5vw;
+    height: 3.5vh;
+}
+.logo-img{
+    width: 3vw;
+    height: 3vh;
+    transition: 0.3s;
+}
+.logo-name{
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0.25vw;
+}
+.header-functions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume{
+
+}
+.resume-btn{
+    height: 5vh;
+    width: 10vw;
+    background-color: transparent;
+    border: 4px solid black;
+    font-size: larger;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.resume-btn:hover{
+    color: whitesmoke;
+    background-color: black;
+    font-size: larger;
+}
+.social-profiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5vw;
+}
+.social-profile-btn{
+    height: 5vh;
+    width: 3vw;
+    border-radius: 5vh;
+    font-size: larger;
+    margin: 0.25vw;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+.social-profile-btn:hover{
+    font-size: xx-large;
+}
+.toggle-mode{
+
+}
+.toggle-mode-btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    height: 5vh;
+    width: 3vw;
+    border-radius: 5vh;
+    margin: 0.25vw;
+    font-size: x-large;
+    transition: 0.3s;
+}
+.toggle-mode-btn:hover{
+    font-size: xx-large;
+}
