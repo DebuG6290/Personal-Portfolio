@@ -1,9 +1,9 @@
 import Header from './components/Header/Header';
-import Body from './components/Body/Body';
+// import Body from './components/Body/Body';
 import Footer from './components/Footer/Footer';
 import './App.css';
 import Navbar from './components/Navbar';
-import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
 import About from './components/Body/About';
 import Skills from './components/Body/Skills';
 import Projects from './components/Body/Projects';

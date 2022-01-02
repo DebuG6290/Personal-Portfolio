@@ -23,10 +23,10 @@ function Header() {
                     </div>
                     <div className='social-profiles'>
                         {/* add the profile btns */}
-                        <a target='_blank' href='https://www.instagram.com/debugi99/'><button className='social-profile-btn'><FaInstagram/></button></a>
-                        <a target='_blank' href='https://www.linkedin.com/in/devansh-goyal-6b91a514b/'><button className='social-profile-btn'><FaLinkedinIn/></button></a>
-                        <a target='_blank' href='https://github.com/DebuG6290'><button className='social-profile-btn'><FaGithub/></button></a>
-                        <a target='_blank' href='mailto:goyaldevansh19991999@gmail.com'><button className='social-profile-btn'><FiMail/></button></a>
+                        <a target='blank' href='https://www.instagram.com/debugi99/'><button className='social-profile-btn'><FaInstagram/></button></a>
+                        <a target='blank' href='https://www.linkedin.com/in/devansh-goyal-6b91a514b/'><button className='social-profile-btn'><FaLinkedinIn/></button></a>
+                        <a target='blank' href='https://github.com/DebuG6290'><button className='social-profile-btn'><FaGithub/></button></a>
+                        <a target='blank' href='mailto:goyaldevansh19991999@gmail.com'><button className='social-profile-btn'><FiMail/></button></a>
                     </div>
                     <div className='toggle-mode'>
                         <button className='toggle-mode-btn'><TiAdjustBrightness/></button>
