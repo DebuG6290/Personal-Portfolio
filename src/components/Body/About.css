@@ -1,3 +1,33 @@
+@media  screen and (max-width:916px) {
+    
+}
+@media  screen and (max-width:916px) and  (orientation:portrait) {
+    .name-about{
+        flex-wrap: wrap;
+    }
+    .about-heading{
+        font-size: 5vh!important;
+    }
+    .about-desc{
+        font-size: 2vh!important;
+    }
+    .coding-profile-logo{
+        height: 3vh!important;
+        width: 5vw!important;
+    }
+    .coding-profile-name{
+        font-size: 1.5vh;
+    }
+}
+@media  screen and (max-width:916px) and (orientation:landscape) {
+    .coding-profile-logo{
+        height: 5vh!important;
+        width: 2.5vw!important;
+    }
+    .coding-profile-name{
+        font-size: 1.5vw;
+    }
+}
 .about-section{
     height: 93vh;
     display: flex;

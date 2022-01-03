@@ -35,32 +35,32 @@ function About() {
                 </div> */}
                 <div className='coding-profiles-body'>
                 <a href='https://www.codechef.com/users/debugi' target='blank'><div className='coding-profile-item'>
-                        <div className='coding-profile-logo'>
-                            <img src={codechef} alt='img'/>
+                        <div className='coding-profile-logo-div'>
+                            <img className='coding-profile-logo' src={codechef} alt='img'/>
                         </div>
                         <div className='coding-profile-name'>
                             CodeChef
                         </div>
                     </div></a>
                     <a href='https://codeforces.com/profile/Debugi' target='blank'><div className='coding-profile-item'>
-                        <div className='coding-profile-logo'>
-                            <img src={codeforces} alt='img'/>
+                        <div className='coding-profile-logo-div'>
+                            <img className='coding-profile-logo' src={codeforces} alt='img'/>
                         </div>
                         <div className='coding-profile-name'>
                             CodeForces
                         </div>
                     </div></a>
                     <a href='https://leetcode.com/debugi/' target='blank'><div className='coding-profile-item'>
-                        <div className='coding-profile-logo'>
-                            <img src={leetcode} alt='img'/>
+                        <div className='coding-profile-logo-div'>
+                            <img className='coding-profile-logo' src={leetcode} alt='img'/>
                         </div>
                         <div className='coding-profile-name'>
                             LeetCode
                         </div>
                     </div></a>
                     <a href='https://auth.geeksforgeeks.org/user/goyaldevansh19991999/profile' target='blank'><div className='coding-profile-item'>
-                        <div className='coding-profile-logo'>
-                            <img src={gfg} alt='img'/>
+                        <div className='coding-profile-logo-div'>
+                            <img className='coding-profile-logo' src={gfg} alt='img'/>
                         </div>
                         <div className='coding-profile-name'>
                             GeeksForGeeks
