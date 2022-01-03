@@ -13,6 +13,9 @@
     .contact-main-headSub{
         font-size: 2vh!important;
     }
+    .contact-item{
+        font-size: 2vh!important;
+    }
 }
 @media  screen and (max-width:916px) and (orientation:landscape) {
     .contact-main-heading-h1{
@@ -22,6 +25,9 @@
         font-size: 3vw!important;
     }
     .contact-main-headSub{
+        font-size: 2vw!important;
+    }
+    .contact-item{
         font-size: 2vw!important;
     }
 }
