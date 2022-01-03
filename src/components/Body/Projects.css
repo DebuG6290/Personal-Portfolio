@@ -1,3 +1,57 @@
+@media  screen and (max-width:916px) {
+    .project-main{
+        width: 85%!important;
+    }
+    .project-gif{
+        max-width: 64vw!important;
+    }
+}
+@media  screen and (max-width:916px) and  (orientation:portrait) {
+    .main-projects-heading{
+        font-size: 4vh!important;
+    }
+    .project-main-heading{
+        font-size: 2.5vh!important;
+    }
+    .tech-item{
+        font-size: 1.5vh!important;
+    }
+    .project-feature-heading{
+        font-size: 2vh!important;
+    }
+    .project-feature{
+        font-size: 1.5vh!important;
+    }
+    .launch-project{
+        font-size: 2vh!important;
+    }
+    .project-code{
+        font-size: 2vh!important;
+    }
+}
+@media  screen and (max-width:916px) and (orientation:landscape) {
+    .main-projects-heading{
+        font-size: 4vw!important;
+    }
+    .project-main-heading{
+        font-size: 2.5vw!important;
+    }
+    .tech-item{
+        font-size: 1.5vw!important;
+    }
+    .project-feature-heading{
+        font-size: 2vw!important;
+    }
+    .project-feature{
+        font-size: 1.5vw!important;
+    }
+    .launch-project{
+        font-size: 2vw!important;
+    }
+    .project-code{
+        font-size: 2vw!important;
+    }
+}
 .projects-section{
     height: 93vh;
     display: flex;
@@ -13,12 +67,16 @@
 .main-projects-heading{
     font-size: xxx-large;
     font-weight: bold;
+    margin-bottom: 1vh;
 }
 .main-projects-body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 78vw;
+    height: 78vh;
+    overflow-y: scroll;
+    flex-wrap: wrap;
 }
 .project-main{
     display: flex;
@@ -29,6 +87,7 @@
     border-radius: 2vh;
     padding: 2vh 2vw;
     padding-top: 0vh;
+    margin-top: 1vh;
 }
 .project-main-header{
     display: flex;
@@ -66,6 +125,7 @@
     border-radius: 2vh;
     max-width: 20vw;
     border: 2px solid black;
+    margin-top: 1vh;
 }
 .project-features{
     display: flex;
