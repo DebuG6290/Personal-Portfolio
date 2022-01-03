@@ -1,3 +1,27 @@
+@media screen and (max-width:916px) {
+    .section-description{
+        display: none;
+    }
+    .active>.total-section-description>.section-description{
+        display: none!important;
+    }
+    .navbar-link::before{
+        width: 2px!important;
+    }
+    .navbar-link::after{
+        width: 2px!important;
+    }
+    .total-section-description{
+        font-size: large!important;
+    }
+    .total-section-description:hover{
+        font-size: x-large!important;
+    }
+    .active>.total-section-description{
+        font-size: x-large!important;
+    }
+}
+
 .main-navbar{
     display: flex;
     height: 93vh;
@@ -10,7 +34,7 @@
     align-items: flex-end;
     justify-content: center;
     align-self: flex-end;
-    height: 75vh;
+    height: fit-content;
     border-top-left-radius: 5vh;
     border-top-right-radius: 5vh;
     background-color: black;
