@@ -1,3 +1,30 @@
+@media  screen and (max-width:916px) {
+    .skills{
+        width: 70vw!important;
+    }
+}
+@media  screen and (max-width:916px) and  (orientation:portrait) {
+    .main-skills-heading{
+        font-size: 4vh!important;
+    }
+    .skills-heading{
+        font-size: 2vh!important;
+    }
+    .skills-item{
+        font-size: 1.5vh!important;
+    }
+}
+@media  screen and (max-width:916px) and (orientation:landscape) {
+    .main-skills-heading{
+        font-size: 4vw!important;
+    }
+    .skills-heading{
+        font-size: 2vw!important;
+    }
+    .skills-item{
+        font-size: 1.5vw!important;
+    }
+}
 .skills-section{
     height: 93vh;
     display: flex;
@@ -12,11 +39,15 @@
 .main-skills-heading{
     font-size: xxx-large;
     font-weight: bold;
+    margin-bottom: 1vh;
 }
 .deriv-skills{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    height: 78vh;
+    overflow-y: scroll;
 }
 .skills{
     display: flex;
@@ -26,6 +57,7 @@
     border-radius: 2vh;
     border: 2px solid black;
     flex-wrap: wrap;
+    margin-top: 1vh;
 }
 .skills-heading{
     font-size: x-large;
