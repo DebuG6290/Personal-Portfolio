@@ -3,6 +3,7 @@ import './Projects.css'
 import Aos from "aos";
 import 'aos/dist/aos.css'
 import todogif from '../Resources/Photos/todo-gif.gif'
+import datamanagergif from '../Resources/Photos/datamanager-gif.gif'
 
 function Projects() {
     useEffect(() => {
@@ -67,7 +68,7 @@ function Projects() {
                             </div>
                        </div>
                        <div className='project-display'>
-
+                         <img className='project-gif' src={datamanagergif} alt='proj-gif'/>
                        </div>
                        <div className='project-features'>
                             <div className='project-feature-heading'>
