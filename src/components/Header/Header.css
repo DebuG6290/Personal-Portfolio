@@ -1,21 +1,24 @@
 @media  screen and (max-width:916px) {
-    .logo-name{
-        font-size: 10px!important;
-    }
-    .logo-img{
-        width: 25px!important;
-        height: 15px!important;
-    }
+    
     .resume-btn{
         border: 2px solid black!important;
     }
 
     .toggle-mode-btn{
+        width: 20px!important;
         font-size: 15px!important;
         margin-top: 8px!important;
+        /* margin-right: 5px!important; */
     }
 }
 @media screen and (orientation:portrait)and (max-width:916px){
+    .logo-name{
+        font-size: 2vh!important;
+    }
+    .logo-img{
+        width: 7vw!important;
+        height: 2.5vh!important;
+    }
     .resume-btn{
         width: 60px!important;
         height: 20px!important;
@@ -26,6 +29,13 @@
     }
 }
 @media screen and (orientation:landscape)and (max-width:916px){
+    .logo-name{
+        font-size: 2vw!important;
+    }
+    .logo-img{
+        width: 3vw!important;
+        height: 5vh!important;
+    }
     .resume-btn{
         width: 60px!important;
         height: 20px!important;
