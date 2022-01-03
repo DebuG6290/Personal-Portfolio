@@ -1,3 +1,24 @@
+@media  screen and (max-width:916px) {
+    .contact{
+        width: 85%!important;
+    }
+}
+@media  screen and (max-width:916px) and  (orientation:portrait) {
+    .contact-main-heading-h1{
+        font-size: 5vh!important;
+    }
+    .contact-main-headSub{
+        font-size: 2vh!important;
+    }
+}
+@media  screen and (max-width:916px) and (orientation:landscape) {
+    .contact-main-heading-h1{
+        font-size: 5vw!important;
+    }
+    .contact-main-headSub{
+        font-size: 2vw!important;
+    }
+}
 .contact-section{
     height: 93vh;
     display: flex;
@@ -36,9 +57,12 @@ a{
 }
 .contact-main-body{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
     width: 78vw;
+    height: 64vh;
+    overflow-y: scroll;
+    flex-wrap: wrap;
 }
 .contact{
     display: flex;
@@ -49,6 +73,7 @@ a{
     border-radius: 2vh;
     padding: 2vh 2vw;
     padding-top: 0px;
+    margin-top: 1vh;
 }
 .contact-heading{
     font-size: x-large;
