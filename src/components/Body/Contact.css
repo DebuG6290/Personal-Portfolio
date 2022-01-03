@@ -7,6 +7,9 @@
     .contact-main-heading-h1{
         font-size: 5vh!important;
     }
+    .contact-heading{
+        font-size: 3vh!important;
+    }
     .contact-main-headSub{
         font-size: 2vh!important;
     }
@@ -14,6 +17,9 @@
 @media  screen and (max-width:916px) and (orientation:landscape) {
     .contact-main-heading-h1{
         font-size: 5vw!important;
+    }
+    .contact-heading{
+        font-size: 3vw!important;
     }
     .contact-main-headSub{
         font-size: 2vw!important;
