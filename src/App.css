@@ -20,7 +20,8 @@
     width: 80%;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
+
    
 }
 section{

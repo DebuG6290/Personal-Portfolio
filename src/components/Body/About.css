@@ -59,14 +59,14 @@
     /* width: 5vw; */
     flex-direction: column;
     align-items: center;
-    font-size: 6vh;
+    font-size: 5.75vh;
     font-weight: bold;
     margin-bottom: 2vh;
 }
 .about-desc{
     margin: 2vh;
     color: rgb(46, 44, 44);
-    font-size: 3vh;
+    font-size: 2.75vh;
     /* width: 50vw; */
 }
 .about-head-1{
