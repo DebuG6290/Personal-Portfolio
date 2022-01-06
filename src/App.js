@@ -7,7 +7,7 @@ import {BrowserRouter as Router} from 'react-router-dom'
 import About from './components/Body/About';
 import Skills from './components/Body/Skills';
 import Projects from './components/Body/Projects';
-import Acheivements from './components/Body/Acheivements';
+import Achievements from './components/Body/Achievements';
 import Contact from './components/Body/Contact';
 
 
@@ -24,13 +24,13 @@ function App() {
               <Route path='/' exact element={<About/>}></Route>
               <Route path='/skills' exact element={<Skills/>}></Route>
               <Route path='/projects' exact element={<Projects/>}></Route>
-              <Route path='/acheivements' exact element={<Acheivements/>}></Route>
+              <Route path='/Achievements' exact element={<Achievements/>}></Route>
               <Route path='/contact' exact element={<Contact/>}></Route>
             </Routes> */}
             <About/>
             <Skills/>
             <Projects/>
-            <Acheivements/>
+            <Achievements/>
             <Contact/>
           </div>
         </div>

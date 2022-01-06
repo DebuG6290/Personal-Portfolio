@@ -1,8 +1,9 @@
 import React from 'react'
 import './Contact.css'
-import { FaInstagram, FaLinkedinIn} from 'react-icons/fa'
+import { FaHeart, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
 import {FiMail} from 'react-icons/fi';
 import {BsTelegram, BsWhatsapp} from 'react-icons/bs'
+// import heart from '../Resources/Photos/heart.png'
 function Contact() {
     return (
         <section className='contact-section'>
@@ -47,6 +48,11 @@ function Contact() {
                     </div>
                     </div>
                 </div>
+                    <div className='footer'>
+                        <div className='footer-text'>
+                            Designed & Developed with  <span className='heart'><FaHeart/></span>  by Devansh Goyal.
+                        </div>
+                 </div>
             </div>
         </section>
     )

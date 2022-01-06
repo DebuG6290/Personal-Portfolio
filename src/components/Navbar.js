@@ -35,7 +35,7 @@ function Navbar() {
                         <Link activeClass="active" containerId='main-section-id' hashSpy={true} spy={true} smooth={true} offset={-70} duration={1200} className='navbar-link-link' to='projects-section'><div className='total-section-description'><BsFillPuzzleFill/><div className='section-description'>Projects</div></div></Link>
                     </li>
                     <li className='navbar-link'>
-                        <Link activeClass="active" containerId='main-section-id' hashSpy={true} spy={true} smooth={true} offset={-70} duration={1200} className='navbar-link-link' to='acheivements-section'><div className='total-section-description'><BsTrophyFill/><div className='section-description'>Acheivements</div></div></Link>
+                        <Link activeClass="active" containerId='main-section-id' hashSpy={true} spy={true} smooth={true} offset={-70} duration={1200} className='navbar-link-link' to='achievements-section'><div className='total-section-description'><BsTrophyFill/><div className='section-description'>Achievements</div></div></Link>
                     </li>
                     <li className='navbar-link'>
                         <Link activeClass="active" containerId='main-section-id' hashSpy={true} spy={true} smooth={true} offset={-70} duration={1200} className='navbar-link-link' to='contact-section'><div className='total-section-description'><BsFillTelephoneFill/><div className='section-description'>Contact</div></div></Link>

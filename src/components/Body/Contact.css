@@ -2,6 +2,9 @@
     .contact{
         width: 85%!important;
     }
+    .footer{
+        width: 90%!important;
+    }
 }
 @media  screen and (max-width:916px) and  (orientation:portrait) {
     .contact-main-heading-h1{
@@ -16,6 +19,9 @@
     .contact-item{
         font-size: 2vh!important;
     }
+    .footer-text{
+        font-size: 1.5vh!important;
+    }
 }
 @media  screen and (max-width:916px) and (orientation:landscape) {
     .contact-main-heading-h1{
@@ -29,6 +35,9 @@
     }
     .contact-item{
         font-size: 2vw!important;
+    }
+    .footer-text{
+        font-size: 1.5vw!important;
     }
 }
 .contact-section{
@@ -45,6 +54,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 93vh;
 }
 .contact-main-header{
     display: flex;
@@ -72,7 +82,7 @@ a{
     align-items: flex-start;
     justify-content: space-evenly;
     width: 78vw;
-    height: 64vh;
+    height: 55vh;
     overflow-y: scroll;
     flex-wrap: wrap;
 }
@@ -135,4 +145,25 @@ a{
 }
 .contact-item:hover{
     font-weight: bold;
+}
+.footer{
+    width: 60%;
+    height: 5vh;
+    border-radius: 2vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-self: flex-end; */
+    justify-self: end;
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+}
+.footer-text{
+   font-size: large;
+   font-weight: bold;
+}
+.heart{
+    width: 2vw;
+    height: 2vh;
 }
