@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import {TiAdjustBrightness} from 'react-icons/ti'
+// import {TiAdjustBrightness} from 'react-icons/ti'
 import {FaGithub, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
 import {FiMail} from 'react-icons/fi';
 import Logo from '../Resources/Photos/d-tag1.png'
@@ -19,7 +19,7 @@ function Header() {
                 </Link>
                 <div className='header-functions'>
                     <div className='resume'>
-                        <button className='resume-btn'>Resume</button>
+                        <a target='blank' href='https://drive.google.com/file/d/1AXV1WQer00bVUS0DbkPfO4sm-q-3Ih93/view?usp=sharing' className='resume-btn'>Resume</a>
                     </div>
                     <div className='social-profiles'>
                         {/* add the profile btns */}
@@ -28,9 +28,9 @@ function Header() {
                         <a target='blank' href='https://github.com/DebuG6290'><button className='social-profile-btn'><FaGithub/></button></a>
                         <a target='blank' href='mailto:goyaldevansh19991999@gmail.com'><button className='social-profile-btn'><FiMail/></button></a>
                     </div>
-                    <div className='toggle-mode'>
+                    {/* <div className='toggle-mode'>
                         <button className='toggle-mode-btn'><TiAdjustBrightness/></button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
     )

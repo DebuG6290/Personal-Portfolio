@@ -92,10 +92,12 @@
     height: 5vh;
     width: 10vw;
     background-color: transparent;
-    border: 4px solid black;
+    border: 3px solid black;
     font-size: large;
+    color: black;
     font-weight: bold;
     transition: 0.3s;
+    padding: 0.5vh 2.5vw;
 }
 .resume-btn:hover{
     color: whitesmoke;
