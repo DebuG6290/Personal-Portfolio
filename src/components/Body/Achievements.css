@@ -1,0 +1,108 @@
+@media  screen and (max-width:916px) {
+    .achievement-item{
+        width: 85%!important;
+    }
+}
+@media  screen and (max-width:916px) and (orientation:portrait) {
+    .main-achievements-heading{
+        font-size: 3.5vh!important;
+    }
+    .achievement-item-heading{
+        font-size: 2.5vh!important;
+    }
+    .achievement-item-award{
+        font-size: 2vh!important;
+    }
+    .achievement-item-description{
+        font-size: 1.5vh!important;
+    }
+    .achievement-item-img{
+        max-width: 40vw!important;
+    }
+
+}
+@media  screen and (max-width:916px) and (orientation:landscape) {
+    .main-achievements-heading{
+        font-size: 4vw!important;
+    }
+    .achievement-item-heading{
+        font-size: 2.5vw!important;
+    }
+    .achievement-item-award{
+        font-size: 2vw!important;
+    }
+    .achievement-item-description{
+        font-size: 1.5vw!important;
+    }
+    .achievement-item-img{
+        max-width: 40vh!important;
+    }
+}
+.achievements-section{
+    height: 93vh;
+}
+.main-achievements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-achievements-heading{
+    font-size: xxx-large;
+}
+.main-achievements-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 78vw;
+    overflow-y: scroll;
+    margin-top: 5vh;
+}
+.achievement-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    border-radius: 2vh;
+    border: 2px solid black;
+    margin: 1vh 1vw;
+}
+.achievement-item-heading{
+    margin-top: 1vh;
+    font-size: x-large;
+    font-weight: bold;
+}
+.achievement-item-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5vh 0.5vw;
+}
+.achievement-item-img{
+    /* font-size: small; */
+    max-width: 20vw;
+    max-height: 20vh;
+    border-radius: 2vh;
+    border: 2px solid black;
+    margin-top: 1vh;
+}
+.achievement-item-img-tag{
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+.achievement-item-text{
+
+}
+.achievement-item-award{
+    margin-top: 1.5vh;
+    font-weight: bold;
+    font-size: large;
+}
+.achievement-item-description{
+    margin: 1vh;
+}
