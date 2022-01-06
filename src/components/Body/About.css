@@ -91,6 +91,7 @@ h1{
     border-radius: 2vh;
     margin-bottom: 1vh;
     flex-wrap: wrap;
+    max-width: 90%;
 }
 .coding-profiles-heading{
     font-size: x-large;
