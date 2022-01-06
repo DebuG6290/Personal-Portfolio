@@ -4,6 +4,7 @@ import Aos from "aos";
 import 'aos/dist/aos.css'
 import todogif from '../Resources/Photos/todo-gif.gif'
 import datamanagergif from '../Resources/Photos/datamanager-gif.gif'
+import personalportfoliogif from '../Resources/Photos/personalportfolio.gif'
 
 function Projects() {
     useEffect(() => {
@@ -90,6 +91,44 @@ function Projects() {
                                Launch Site
                            </div></a>
                            <a href='https://github.com/DebuG6290/datamanage' target='blank'><div className='project-code'>
+                               Source Code
+                           </div></a>
+                       </div>
+                   </div>
+                   <div className='project-main'>
+                       <div className='project-main-header'>
+                            <div className='project-main-heading'>
+                                Personal Portfolio
+                            </div>
+                            <div className='project-main-techUsed'>
+                                <ul className='tech-list'>
+                                    <li className='tech-item'>ReactJS</li>
+                                    <li className='tech-item'>JavaScript</li>
+                                    <li className='tech-item'>HTML</li>
+                                    <li className='tech-item'>CSS</li>
+                                </ul>
+                            </div>
+                       </div>
+                       <div className='project-display'>
+                         <img className='project-gif' src={personalportfoliogif} alt='proj-gif'/>
+                       </div>
+                       <div className='project-features'>
+                            <div className='project-feature-heading'>
+                                Features:
+                            </div>
+                            <div className='project-feature-body'>
+                                <ul>
+                                    <li className='project-feature'>1) Responsive Design.</li>
+                                    <li className='project-feature'>2) Clean and easy to use UI.</li>
+                                    {/* <li className='project-feature'>3) Compare different table values easily with Compare button.</li> */}
+                                </ul>
+                            </div>
+                       </div>
+                       <div className='project-view'>
+                       <a href='https://devansh-goyal.netlify.app/' target='blank'><div className='launch-project'>
+                               Launch Site
+                           </div></a>
+                           <a href='https://github.com/DebuG6290/Personal-Portfolio' target='blank'><div className='project-code'>
                                Source Code
                            </div></a>
                        </div>
