@@ -19,7 +19,7 @@ function Header() {
                 </Link>
                 <div className='header-functions'>
                     <div className='resume'>
-                        <a target='blank' href='https://drive.google.com/file/d/1AXV1WQer00bVUS0DbkPfO4sm-q-3Ih93/view?usp=sharing' className='resume-btn'>Resume</a>
+                        <a target='blank' href='https://drive.google.com/file/d/1YZ86D9aipKotDnMDdeF3wGeCX4lSCMu0/view?usp=sharing' className='resume-btn'>Resume</a>
                     </div>
                     <div className='social-profiles'>
                         {/* add the profile btns */}
