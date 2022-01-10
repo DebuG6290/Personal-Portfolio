@@ -5,6 +5,7 @@ import 'aos/dist/aos.css'
 import todogif from '../Resources/Photos/todo-gif.gif'
 import datamanagergif from '../Resources/Photos/datamanager-gif.gif'
 import personalportfoliogif from '../Resources/Photos/personalportfolio.gif'
+import airqdashboardgif from '../Resources/Photos/AirQ-Dashboard.gif'
 
 function Projects() {
     useEffect(() => {
@@ -17,21 +18,23 @@ function Projects() {
                    <h1>Projects</h1>
                </div>
                <div className='main-projects-body'>
-                   <div className='project-main'>
+               <div className='project-main'>
                        <div className='project-main-header'>
                             <div className='project-main-heading'>
-                                To-Do Keeper
+                                AirQ Dashboard
                             </div>
                             <div className='project-main-techUsed'>
                                 <ul className='tech-list'>
+                                    <li className='tech-item'>ReactJS</li>
                                     <li className='tech-item'>JavaScript</li>
                                     <li className='tech-item'>HTML</li>
                                     <li className='tech-item'>CSS</li>
+                                    <li className='tech-item'>OpenAQ API</li>
                                 </ul>
                             </div>
                        </div>
                        <div className='project-display'>
-                            <img className='project-gif' src={todogif} alt='proj-gif'/>
+                         <img className='project-gif' src={airqdashboardgif} alt='proj-gif'/>
                        </div>
                        <div className='project-features'>
                             <div className='project-feature-heading'>
@@ -39,18 +42,20 @@ function Projects() {
                             </div>
                             <div className='project-feature-body'>
                                 <ul>
-                                    <li className='project-feature'>1) Edit, Delete, Complete your pending tasks.</li>
-                                    <li className='project-feature'>2) Undo  a completed task.</li>
-                                    <li className='project-feature'>3) Stores  your completed tasks even after exit</li>
+                                    <li className='project-feature'>1) Check the Air Quality near you easily.</li>
+                                    <li className='project-feature'>2) Option to drag and check Air Quality of any place on the map.</li>
+                                    <li className='project-feature'>3) Analysis Dashboard of key Pollutants and their variation with time.</li>
+                                    <li className='project-feature'>4) Charts to better understand the changing concentration of pollutants.</li>
+                                    <li className='project-feature'>5) Responsive Design and easy to use UI.</li>
                                 </ul>
                             </div>
                        </div>
                        <div className='project-view'>
-                       <a href='https://easy-todo-keeper.netlify.app/' target='blank'><div className='launch-project'>
-                                    Launch Site
+                       <a href='https://airq-dashboard.netlify.app/' target='blank'><div className='launch-project'>
+                               Launch Site
                            </div></a>
-                           <a href='https://github.com/DebuG6290/ToDoApp' target='blank'><div className='project-code'>
-                                    Source Code
+                           <a href='https://github.com/DebuG6290/AirQ-Dashboard' target='blank'><div className='project-code'>
+                               Source Code
                            </div></a>
                        </div>
                    </div>
@@ -130,6 +135,43 @@ function Projects() {
                            </div></a>
                            <a href='https://github.com/DebuG6290/Personal-Portfolio' target='blank'><div className='project-code'>
                                Source Code
+                           </div></a>
+                       </div>
+                   </div>
+                   <div className='project-main'>
+                       <div className='project-main-header'>
+                            <div className='project-main-heading'>
+                                To-Do Keeper
+                            </div>
+                            <div className='project-main-techUsed'>
+                                <ul className='tech-list'>
+                                    <li className='tech-item'>JavaScript</li>
+                                    <li className='tech-item'>HTML</li>
+                                    <li className='tech-item'>CSS</li>
+                                </ul>
+                            </div>
+                       </div>
+                       <div className='project-display'>
+                            <img className='project-gif' src={todogif} alt='proj-gif'/>
+                       </div>
+                       <div className='project-features'>
+                            <div className='project-feature-heading'>
+                                Features:
+                            </div>
+                            <div className='project-feature-body'>
+                                <ul>
+                                    <li className='project-feature'>1) Edit, Delete, Complete your pending tasks.</li>
+                                    <li className='project-feature'>2) Undo  a completed task.</li>
+                                    <li className='project-feature'>3) Stores  your completed tasks even after exit</li>
+                                </ul>
+                            </div>
+                       </div>
+                       <div className='project-view'>
+                       <a href='https://easy-todo-keeper.netlify.app/' target='blank'><div className='launch-project'>
+                                    Launch Site
+                           </div></a>
+                           <a href='https://github.com/DebuG6290/ToDoApp' target='blank'><div className='project-code'>
+                                    Source Code
                            </div></a>
                        </div>
                    </div>
